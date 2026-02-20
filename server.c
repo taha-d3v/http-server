@@ -43,7 +43,7 @@ void serv( char *ip , int port){
     
   printf("listening on port %d\n" , port);
 
-  close(sockfd)
+  close(sockfd);
 
   }
 
