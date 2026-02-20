@@ -14,7 +14,7 @@ void error(char *msg){
   perror(msg);
 }
 
-int serv( char *ip , int port){
+void serv( char *ip , int port){
 
   // init the socket descriptor
   int sockfd = socket( AF_INET , SOCK_STREAM , 0); // AF_INET is the TCP Flag 
